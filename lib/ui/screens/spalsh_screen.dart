@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myzoneinterntask/ui/screens/bottom_nav_bar_screen.dart';
+import 'package:myzoneinterntask/ui/screens/post_screen.dart';
 import 'package:myzoneinterntask/ui/widgets/screen_background.dart';
 
 class SplashScreen extends StatelessWidget {
@@ -57,7 +58,7 @@ class SplashScreen extends StatelessWidget {
                           side: const BorderSide(color: Colors.white))),
                   onPressed: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => const BottomNavBarScreen()));
+                        MaterialPageRoute(builder: (context) => const PostScreen()));
                   },
                   child: const Text(
                     'Get Started',
